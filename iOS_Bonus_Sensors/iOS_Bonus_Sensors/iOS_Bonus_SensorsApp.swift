@@ -21,7 +21,7 @@ struct iOS_Bonus_SensorsApp: App {
                 }
 
                 Tab("Näherungssensor", systemImage: "face.dashed") {
-
+                    ProximitySensorView()
                 }
 
                 Tab("Helligkeitssensor", systemImage: "circle.lefthalf.striped.horizontal.inverse") {
